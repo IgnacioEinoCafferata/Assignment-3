@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: green;
+    color:white ;
+    text-align: center;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav {
+    background-color: black;
+    overflow: hidden;
+}
+
+.nav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+}
+
+.nav :hover {
+    background-color: #3e8e41;
+    color: black;
+}
+
+
+main {
+    display: flex;
+}
+
+.leftcolumn {
+    width: 25%;
+    background-color: gray;
+    height: 250px;
+    border: 2px black;
+    padding:10px;
+}
+
+.leftcolumn ul {
+    list-style: none;
+    padding: 0px;
+}
+
+.leftcolumn a {
+    text-decoration: none;
+    color: black;
+    background-color: lightgrey;
+    font-size: 18px;
+    display: block;
+    padding:10px;
+}
+
+.leftcolumn :hover {
+    background-color: green;
+    color: white;
+}
+
+.rightcolumn {
+    width: 75%;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gallery {
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    text-align: center;
+    overflow: hidden;
+    padding: 10px;
+    margin: 5px;
+    height: 400px;
+    width:250px;
+}
+
+.gallery:hover {
+    border-color: #4CAF50;
+}
+
+.gallery img {
+    height: 250px;
+    width: 250px;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: start;
+    padding: 10px;
+}
+
+.button {
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+}
+
+.button:hover{
+    background-color: white;
+    color: black;
+    border: green 2px solid;
+}
