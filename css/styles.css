@@ -31,10 +31,6 @@ header {
 }
 
 
-main {
-    display: flex;
-}
-
 .leftcolumn {
     width: 25%;
     background-color: gray;
